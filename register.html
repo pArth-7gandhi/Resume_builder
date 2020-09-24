@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register form</title>
+	<link rel="stylesheet"  href="register.css">
+</head>
+<body>
+	
+<div class="contain-box">
+
+		<h1>Register here</h1>
+		<form action="register.php" method="post">
+			
+				<div class="input-box">
+					<input type="name" name="name" placeholder="FULL NAME" required>
+					<input type="username" name="username" placeholder="Username" required>
+					<input type="email" name="email" placeholder="Enter your Email-id" required>
+					<input type="password" name="password" placeholder="Enter Password" required>
+					<input type="password" name="repassword" placeholder="Reenter Password" required>
+					<input type="text" name="city" placeholder="Enter City" required>
+					<input type="number" name="phone_no" placeholder="Mobile no:" maxlength="10" min="10"  required>
+					<p> DOB: <input type="date" name="dob" placeholder="dd/mm/yy" required></p>
+
+					<h3 style="color: white">Skills.</h3>
+					<p><input type="checkbox" name="skills[]" value="Public Speaking" /> Public Speaking
+  					<input type="checkbox" name="skills[]" value="Teamwork" /> Teamwork
+  					<input type="checkbox" name="skills[]" value="Negotiation" /> Negotiation
+  					<input type="checkbox" name="skills[]" value="Google Analytics" /> Google Analytics
+  					<input type="checkbox" name="skills[]" value="Email Marketing" /> Email Marketing
+  					<input type="checkbox" name="skills[]" value="Decision Making" /> Decision Making
+  					<input type="checkbox" name="skills[]" value="Emotional Intelligence" /> Emotional Intelligence	</p>
+
+  					<!-- <input type="text" name="Education" placeholder="Education" required> -->
+  					<h3 style="color: white">Education:</h3>
+  					<textarea id="Education" name="education" rows="6" cols="50" placeholder="eg:school,college,etc."></textarea>
+
+  					<h3 style="color: white">Work Experience:</h3>
+  					<textarea id="work_exp" name="work_exp" rows="6" cols="50" placeholder="eg:Any jobs,certificates,etc."></textarea>
+
+  					<h3 style="color: white">Languages:</h3>
+  					<p><input type="checkbox" name="lang[]" value="Java" /> Java
+  					<input type="checkbox" name="lang[]" value="Python" /> Python
+  					<input type="checkbox" name="lang[]" value="Php" /> Php
+  					<input type="checkbox" name="lang[]" value="Data Science" /> Data Science
+  					<input type="checkbox" name="lang[]" value="Angular" /> Angular<br>
+  					<!-- <input type="checkbox" name="lang[]" value="C#" />C# -->
+  					<input type="checkbox" name="lang[]" value="Dart" /> Dart
+  					<input type="checkbox" name="lang[]" value="React" /> React
+
+  					<input type="text" name="linkedin" placeholder="Enter Linkedin id" required>
+				</div>
+					
+
+					<input type="submit" name="" value="Register">	
+					<a href="login.html" style= "color:red">already a user?!</a>
+
+				
+				
+		</form>
+			
+	</div>
+
+</body>
+</html>

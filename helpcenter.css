@@ -1,0 +1,45 @@
+.head {
+  background-color: #5c5c8a;
+  color: #000000;
+  cursor: pointer;
+  /*padding: 18px;*/
+  width: 80%;
+  height: 70px;
+  padding-left: 20px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.right_side{
+   float:right;
+   width:80%;
+}
+
+h1{
+  text-shadow: 4px 3px #80b3ff;
+}
+
+.p{
+  text-decoration: none;
+  color:black;
+}
+
+.float{
+  float:left;
+  width:20%;
+}
+
+.float2{
+  float:left;
+  width: 20%;
+}
+
+.panel{
+  background-color: #999999;
+  width: 80%;
+  padding: 5px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register form</title>
+	<link rel="stylesheet"  href="register.css">
+</head>
+<body>
+	
+<div class="contain-box">
+
+		<h1>Register here</h1>
+		<form action="register.php" method="post">
+			
+				<div class="input-box">
+					<input type="name" name="name" placeholder="FULL NAME" required>
+					<input type="username" name="username" value="admin">
+				
+					<input type="email" name="email" placeholder="Enter your Email-id" required>
+					<input type="password" name="password" placeholder="Enter Password" required>
+					<input type="password" name="repassword" placeholder="Reenter Password" required>
+					<input type="text" name="city" placeholder="Enter City" required>
+					<input type="number" name="phone_no" placeholder="Mobile no:" maxlength="10" min="10"  required>
+
+					
+
+					<input type="submit" name="" value="Register">	
+					<a href="login.html" style= "color:red">already a user?!</a>
+
+				
+				
+		</form>
+			
+	</div>
+
+</body>
+</html>

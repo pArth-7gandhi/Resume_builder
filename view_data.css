@@ -1,0 +1,44 @@
+#view{
+	background: url("view2f.jpg");
+	background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size:100% 100%;
+}
+
+#edit{
+	text-align: center;
+	padding: 15px; 
+}
+
+input[type=radio]{
+	margin-bottom: 50px;
+}
+p{
+	text-align: center;
+	font-size: 20px;
+	color:red;
+}
+
+#name{
+	font-size: 50px;
+	margin-bottom:5px; 
+}
+
+.button {
+  background-color: gray; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
